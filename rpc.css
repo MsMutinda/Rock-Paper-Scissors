@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
    
@@ -110,3 +111,123 @@
     margin-top: 60px;
 }
 
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: tan;
+}
+
+div {
+    height: 100px;
+    font-family: sans-serif;
+}
+
+.you {
+    margin-right: 40%;
+}
+
+.Computer {
+    margin-right: 25%;
+}
+
+.container {
+    color: rgb(224, 224, 224);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container h2 {
+    font-size: 30px;
+}
+
+.container p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px
+}
+
+.game {
+    height: 50px;
+    margin-top: 35%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.game h1 {
+    font-size: 50px;   
+}
+
+.match button {
+    margin-top: 60%;
+    margin-left: 30%;
+}
+
+.options h1 {
+    margin-left: 35%;
+}
+
+.match button, .options button {
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid;
+    border-radius: 3px;
+    background: rgb(15, 14, 14);
+    position: relative;
+    right: 5%;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+}
+
+.match {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start {
+    color: rgb(224, 224, 224);
+    text-align: center;
+    font-size: 50px;
+}
+
+.hands, .options { 
+    justify-content: space-around;
+    position: relative;
+    top: 70%;
+    align-items: center;
+}
+
+.player {
+    transform: rotate(360deg);
+    width: 80px; 
+    height: 80px;
+}
+
+.comp {
+    transform: rotate(360deg);
+    width: 80px; 
+    height: 80px;
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn {
+    opacity: 0;
+    pointer-events: all;
+}
+>>>>>>> 4e9079bbe38da89481232f305f71f95d85647031
